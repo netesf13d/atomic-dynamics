@@ -26,9 +26,11 @@ I do not maintain it anymore.
 
 This package requires Python > 3.10 and the following packages:
 - [numpy](https://numpy.org/)
-- [scipy](https://scipy.org/) (special functions and data fitting)
+- [scipy](https://scipy.org/)
 - [matplotlib](https://matplotlib.org/)
-- [pandas](https://pandas.pydata.org/) (file loading)
+- [sympy](https://www.sympy.org)
+- [mpmath](https://mpmath.org/)
+- [gmpy2](https://pypi.org/project/gmpy2/) (optional)
 
 
 ## Notes
