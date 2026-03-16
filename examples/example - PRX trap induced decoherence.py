@@ -444,7 +444,7 @@ ax[1, 1].set_ylabel(r"T2 (ms)", fontsize=11, labelpad=3)
 # =============================================================================
 # ########## Save data ##########
 # =============================================================================
-fpath_out = "./data/"
+fpath_out = "./media/"
 
 data_out = {
     'trap_freq': np.array([omega_x, omega_y, omega_z]) / (2*np.pi), # Hz

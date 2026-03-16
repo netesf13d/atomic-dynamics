@@ -138,6 +138,6 @@ ax.set_ylabel(r"E final / E initial", fontsize=11, labelpad=4)
 fig.text(0.08, 0.9, f"wx = {wx*1e6:.2f} um, wy = {wy*1e6:.2f} um")
 
 
-fpath_out = "./data/"
+fpath_out = "./media/"
 fig.savefig(fpath_out + "GaussTrap_parametric_excitation.png")
 

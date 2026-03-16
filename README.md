@@ -21,16 +21,29 @@ The code was written while I was rushing to finish writting my thesis. Although 
 
 I do not maintain it anymore.
 
+<p align="center">
+    <img src="examples/media/BoB_trajectories_2d.png" width="600" title="Atomic trajectories in bottle beams" />
+</p>
 
-## Dependencies
 
-This package requires Python > 3.10 and the following packages:
-- [numpy](https://numpy.org/)
-- [scipy](https://scipy.org/)
-- [matplotlib](https://matplotlib.org/)
-- [sympy](https://www.sympy.org)
-- [mpmath](https://mpmath.org/)
-- [gmpy2](https://pypi.org/project/gmpy2/) (optional)
+## Usage
+
+Setup the Python environment to run the examples.
+- With `pip`,
+  ```bash
+  pip install -r requirements.txt
+  ```
+- Using `conda`,
+  ```bash
+  conda create --name <env_name> --file requirements.txt
+  conda activate <env_name>
+  ```
+- Using `uv`,
+  ```bash
+  uv venv .venv
+  source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+  uv pip install -r requirements.txt
+  ```
 
 
 ## Notes

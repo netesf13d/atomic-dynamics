@@ -250,7 +250,7 @@ ax[0, 1].set_xlabel(r"Potential energy / h (kHz)", fontsize=11, labelpad=3)
 # =============================================================================
 # Save data
 # =============================================================================
-fpath_out = "./data/"
+fpath_out = "./media/"
 
 data_out = {
     'shape': bob.dgrid.shape,
